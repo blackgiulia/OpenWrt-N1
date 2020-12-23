@@ -15,3 +15,7 @@
 
 # Add OpenClash
 git clone https://github.com/vernesong/OpenClash.git package/openclash
+
+# Add vssr
+git clone https://github.com/jerrykuku/lua-maxminddb.git package/lua-maxminddb
+git clone https://github.com/jerrykuku/luci-app-vssr.git package/luci-app-vssr
