@@ -24,4 +24,4 @@ git clone https://github.com/pymumu/luci-app-smartdns.git -b lede package/luci-a
 git clone https://github.com/xiaorouji/openwrt-passwall package/passwall
 
 # Add filebrowser
-git clone https://github.com/giaulo/luci-app-filebrowser.git package/filebrowser
+#git clone https://github.com/giaulo/luci-app-filebrowser.git package/filebrowser
