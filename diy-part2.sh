@@ -14,14 +14,14 @@
 sed -i 's/192.168.1.1/192.168.1.253/g' package/base-files/files/bin/config_generate
 
 # Add OpenClash
-git clone https://github.com/vernesong/OpenClash.git package/openclash
+git clone --depth 1 -b master --single-branch https://github.com/vernesong/OpenClash.git && mv OpenClash/luci-app-openclash openwrt/package/luci-app-openclash
 
 # Add smartdns
-git clone https://github.com/pymumu/openwrt-smartdns.git package/smartdns
-git clone https://github.com/pymumu/luci-app-smartdns.git -b lede package/luci-app-smartdns
+git clone --depth 1 https://github.com/pymumu/openwrt-smartdns.git package/smartdns
+git clone --depth 1 https://github.com/pymumu/luci-app-smartdns.git -b lede package/luci-app-smartdns
 
 # Add passwall
-git clone https://github.com/xiaorouji/openwrt-passwall package/passwall
+git clone --depth 1 https://github.com/xiaorouji/openwrt-passwall package/passwall
 
 # Add filebrowser
 #git clone https://github.com/giaulo/luci-app-filebrowser.git package/filebrowser
