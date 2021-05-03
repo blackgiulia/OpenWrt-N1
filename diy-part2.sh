@@ -14,7 +14,7 @@
 sed -i 's/192.168.1.1/192.168.1.253/g' package/base-files/files/bin/config_generate
 
 # Add OpenClash
-git clone --depth 1 -b master --single-branch https://github.com/vernesong/OpenClash.git && mv OpenClash/luci-app-openclash openwrt/package/luci-app-openclash
+git clone --depth 1 https://github.com/vernesong/OpenClash.git package/OpenClash && mv package/OpenClash/luci-app-openclash package/luci-app-openclash
 
 # Add smartdns
 git clone --depth 1 https://github.com/pymumu/openwrt-smartdns.git package/smartdns
