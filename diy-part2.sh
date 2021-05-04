@@ -23,5 +23,5 @@ git clone --depth 1 https://github.com/pymumu/luci-app-smartdns.git -b lede pack
 # Add passwall
 git clone --depth 1 https://github.com/xiaorouji/openwrt-passwall package/passwall
 
-# Add unblockmusic
-git clone --depth 1 https://github.com/maxlicheng/luci-app-unblockmusic.git package/luci-app-unblockmusic
+# Add unblockneteasemusic
+git clone --depth 1 https://github.com/immortalwrt/luci-app-unblockneteasemusic.git package/luci-app-unblockneteasemusic
