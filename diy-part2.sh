@@ -27,4 +27,4 @@ git clone --depth 1 https://github.com/xiaorouji/openwrt-passwall package/passwa
 git clone --depth 1 https://github.com/immortalwrt/luci-app-unblockneteasemusic.git package/luci-app-unblockneteasemusic
 
 # Add rosy theme
-git clone --depth 1 https://github.com/rosywrt/luci-theme-rosy.git package/luci-theme-rosy && mv package/luci-theme-rosy/luci-theme-rosy package/luci-theme-rosy
+git clone --depth 1 https://github.com/rosywrt/luci-theme-rosy.git package/luci-theme-rosy
