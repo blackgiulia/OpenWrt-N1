@@ -21,10 +21,10 @@ git clone --depth 1 https://github.com/pymumu/openwrt-smartdns.git package/smart
 git clone --depth 1 https://github.com/pymumu/luci-app-smartdns.git -b lede package/luci-app-smartdns
 
 # Add passwall
-git clone --depth 1 https://github.com/xiaorouji/openwrt-passwall package/passwall
+#git clone --depth 1 https://github.com/xiaorouji/openwrt-passwall package/passwall
 
 # Add unblockneteasemusic
-git clone --depth 1 https://github.com/immortalwrt/luci-app-unblockneteasemusic.git package/luci-app-unblockneteasemusic
+#git clone --depth 1 https://github.com/immortalwrt/luci-app-unblockneteasemusic.git package/luci-app-unblockneteasemusic
 
 # Add rosy theme
 git clone --depth 1 https://github.com/rosywrt/luci-theme-rosy.git package/luci-theme-rosy
